@@ -12,7 +12,7 @@ export const copy = {
   },
   work: [
     {
-      company: "/images/Writeopia.png",
+      company: "./images/Writeopia.png",
       title: "AI-assisted writing platform",
       tags: ["AI", "Systems", "Product"],
       summary:
