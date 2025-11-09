@@ -62,7 +62,7 @@ function App() {
               <div className="relative h-64 w-64 overflow-hidden rounded-full bg-gradient-to-br from-primary/20 to-primary/5 md:h-80 md:w-80">
                 <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/10 to-primary/5">
                   <span className="text-6xl font-bold text-primary/20">
-                    <img src="/self_pic.jpeg" alt="Gabriela Lima" />
+                    <img src="/portfolio/self_pic.jpeg" alt="Gabriela Lima" />
                   </span>
                 </div>
               </div>
