@@ -11,14 +11,14 @@ import { ArrowRight } from 'lucide-react'
 import { ThemeProvider } from './components/theme-provider'
 
 const cardImages = [
-  "portfolio/6.png",
-  "portfolio/7.png",
-  "portfolio/one.png",
-  "portfolio/5.png",
-  "portfolio/feedback2.png",
-  "portfolio/feedback3.png",
-  "portfolio/feedback4.png",
-  "portfolio/feedback5.png",
+  "./portfolio/6.png",
+  "./portfolio/7.png",
+  "./portfolio/one.png",
+  "./portfolio/5.png",
+  "./portfolio/feedback2.png",
+  "./portfolio/feedback3.png",
+  "./portfolio/feedback4.png",
+  "./portfolio/feedback5.png",
 ]
 
 function App() {
@@ -188,6 +188,7 @@ function App() {
 }
 
 export default App
+
 
 
 
