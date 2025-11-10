@@ -25,11 +25,11 @@ export const copy = {
       role: "Co-founder & Head of Design",
       snapshot: {
         context:
-          "Enterprises struggled with fragmented knowledge across tools and costly per-seat models. Writeopia helps teams organize, find, and trust their knowledge base.",
+          "Large enterprises struggled with fragmented knowledge across siloed tools and costly seat-based models. Writeopia centralizes knowledge and enables trusted, organization-wide retrieval.",
         challenge:
-          "Enable secure, scalable knowledge retrieval without locking companies into expensive seat-based tools.",
+          "Use AI to build a secure, scalable AI-powered knowledge platform without locking organizations into expensive vendor-controlled seats.",
         approach:
-          "Defined end-to-end product strategy, IA, and UX. Designed AI tagging + Knowledge Graph workflows (semantic search, auto-tag extraction). Led brand identity and enterprise-ready flows; collaborated on privacy, encryption, and local/cloud deployment.",
+          "Led product strategy, IA, and UX end-to-end. Designed semantic search, automated AI tagging, and Knowledge Graph-based discovery. Collaborated with security teams to define encryption, access policies, and hybrid deployment (local + cloud). Defined brand system and enterprise onboarding flows.",
         impact:
           "Launched enterprise pilot; faster internal discovery and reduced duplication. Consistent narrative presented at industry events; recognized by press partners for innovation."
       }
@@ -39,7 +39,7 @@ export const copy = {
       title: "Design org turnaround",
       tags: ["Leadership", "Design Ops", "Systems", "AI"],
       summary:
-        "Rebuilt the org from 1 senior IC to 5 designers without adding headcount; launched a shadcn-based design system and new rituals with Engineering.",
+        "Rebuilt the org from 1 senior IC to 5 designers; Implement AI process, launched a shadcn-based design system and new rituals with Engineering.",
       outcomes: [
         "Team NPS 17 → 75",
         "Leadership rating 16 → 91 (<12 months)",
@@ -48,13 +48,14 @@ export const copy = {
       role: "Head of Product Experience",
       snapshot: {
         context:
-          "Cybersecurity company needing quality and speed without expanding headcount.",
+          "Axur, a digital risk and external threat intelligence platform, needed to improve product design quality and accelerate delivery with AI tools.",
         challenge:
-          "Low design maturity, inconsistent quality, and weak eng-collaboration slowed delivery.",
+          "Low design maturity, inconsistent UX/UI quality, and weak collaboration between design and engineering teams were slowing delivery and impacting user experience.",
         approach:
-          "Introduced Staff roles, removed middle layer, created growth frameworks. Implemented DS (shadcn), tokens, documentation, and review cadence; established decision memos and cross-functional rituals.",
+          "I restructured the design organization by introducing Staff-level roles and removing unnecessary management layers. At the same time, I established designer growth frameworks covering career progression, impact criteria, and mentorship. I implemented a scalable Design System (shadcn-based) with tokens, comprehensive documentation, and regular design reviews with engineering. Additionally, I introduced decision memos and cross-functional rituals to align product, design, and engineering teams, improving transparency and decision-making across the organization. 
+
         impact:
-          "Raised quality and delivery speed; measurable culture shift reflected in NPS and leadership evaluations; scalable DS adopted across squads."
+          "These changes increased product quality and delivery speed, with the Design System being adopted across squads, enabling consistent and scalable execution. The cultural shift was measurable, reflected in internal NPS and leadership evaluations. Overall, the design processes scaled sustainably without increasing headcount, elevating design maturity across the company."
       }
     },
     {
@@ -71,13 +72,13 @@ export const copy = {
       role: "Design Manager",
       snapshot: {
         context:
-          "One of Brazil's largest fintech apps during hypergrowth; card experience needed clarity, trust, and scalability.",
+          "PicPay, one of Brazil's largest fintech apps, was experiencing hypergrowth, and its card experience required clarity, trust, and scalability to meet user needs.",
         challenge:
-          "Fragmented UX across squads limited adoption and increased friction for card activation and ongoing usage.",
+          "Fragmented UX across multiple squads limited adoption and created friction in card activation and ongoing usage, impacting overall user engagement.",
         approach:
-          "Led end-to-end redesign of PicPay Card (onboarding, identity, transaction UX, rewards). Unified flows and interaction patterns; introduced critique cadence, KPIs, and iterative tests; aligned Product, Marketing, and Engineering.",
+          "I led the end-to-end redesign of the PicPay Card, covering onboarding, identity verification, transaction UX, and rewards. I unified flows and interaction patterns across squads, introduced a regular critique cadence, defined KPIs, and ran iterative tests to continuously improve the experience. Throughout the process, I aligned Product, Marketing, and Engineering teams to ensure consistency and shared ownership.",
         impact:
-          "Card adoption scaled from ~1M to ~46M users. Unified DS increased coherence and velocity; clearer ownership and documentation reduced rework."
+          "As a result, card adoption scaled dramatically from approximately 1 million to 46 million users. The unified Design System increased coherence and delivery velocity, while clearer ownership and documentation reduced rework and enabled sustainable growth."
       }
     },
     {
@@ -91,16 +92,16 @@ export const copy = {
         "Clearer Product–Design ownership model",
         "Improved learning experience coherence across web/mobile"
       ],
-      role: "Design Manager",
+      role: "Senior Product Designer and Chapter Lead",
       snapshot: {
         context:
-          "Medical education platform expanding its digital products and team.",
+          "A medical education platform was expanding its digital products and growing its team, creating the need for a unified learning experience.",
         challenge:
-          "Unify learning experience while teams grow and diversify delivery.",
+          "Redesign the App and desktop plataform for medical students. As teams scaled and delivery diversified, inconsistencies in the user experience threatened engagement and learning outcomes.",
         approach:
-          "Established research/discovery rituals, cross-functional ceremonies, and mentorship for new leads. Improved IA and flows for course formats and engagement.",
+          "I established research and discovery rituals, implemented cross-functional ceremonies, and provided mentorship for new team leads. I also improved information architecture and optimized flows for various course formats to enhance engagement and consistency across the platform.",
         impact:
-          "Greater delivery speed and quality; stronger Product–Design alignment; clearer decision-making that supported new format launches."
+          "These efforts led to faster, higher-quality delivery, stronger alignment between Product and Design, and clearer decision-making, enabling the successful launch of new course formats."
       }
     }
   ],
