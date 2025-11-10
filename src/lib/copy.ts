@@ -7,7 +7,7 @@ export const copy = {
       "I build high-impact product teams, systems, and experiences that connect design excellence to business outcomes.",
     byline:
       "Currently Head of Design at Axur Cybersecurity. Previously PicPay & Sanar. Co-founder at Writeopia.",
-    ctaPrimary: { label: "Get in touch", href: "mailto:gabrielasvlima@gmail.com" },
+    ctaPrimary: { label: "Get in touch", href: "https://www.linkedin.com/in/gabrielasvlima/" },
     ctaSecondary: { label: "View selected work", href: "#work" }
   },
   work: [
