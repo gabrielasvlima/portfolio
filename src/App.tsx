@@ -11,7 +11,7 @@ import { ArrowRight } from 'lucide-react'
 import { ThemeProvider } from './components/theme-provider'
 
 const cardImages = [
-  "./6.png",
+  "/portfolio/6.png",
   "/portfolio/7.png",
   "/portfolio/one.png",
   "/portfolio/5.png",
@@ -188,6 +188,7 @@ function App() {
 }
 
 export default App
+
 
 
 
