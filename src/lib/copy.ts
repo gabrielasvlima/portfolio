@@ -52,8 +52,7 @@ export const copy = {
         challenge:
           "Low design maturity, inconsistent UX/UI quality, and weak collaboration between design and engineering teams were slowing delivery and impacting user experience.",
         approach:
-          "I restructured the design organization by introducing Staff-level roles and removing unnecessary management layers. At the same time, I established designer growth frameworks covering career progression, impact criteria, and mentorship. I implemented a scalable Design System (shadcn-based) with tokens, comprehensive documentation, and regular design reviews with engineering. Additionally, I introduced decision memos and cross-functional rituals to align product, design, and engineering teams, improving transparency and decision-making across the organization. 
-
+          "I restructured the design organization by introducing Staff-level roles and removing unnecessary management layers. At the same time, I established designer growth frameworks covering career progression, impact criteria, and mentorship. I implemented a scalable Design System (shadcn-based) with tokens, comprehensive documentation, and regular design reviews with engineering. Additionally, I introduced decision memos and cross-functional rituals to align product, design, and engineering teams, improving transparency and decision-making across the organization.", 
         impact:
           "These changes increased product quality and delivery speed, with the Design System being adopted across squads, enabling consistent and scalable execution. The cultural shift was measurable, reflected in internal NPS and leadership evaluations. Overall, the design processes scaled sustainably without increasing headcount, elevating design maturity across the company."
       }
