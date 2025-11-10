@@ -11,14 +11,14 @@ import { ArrowRight } from 'lucide-react'
 import { ThemeProvider } from './components/theme-provider'
 
 const cardImages = [
-  "/portfolio/6.png",
-  "/portfolio/7.png",
-  "/portfolio/one.png",
-  "/portfolio/5.png",
-  "/portfolio/feedback2.png",
-  "/portfolio/feedback3.png",
-  "/portfolio/feedback4.png",
-  "/portfolio/feedback5.png",
+  "/6.png",
+  "/7.png",
+  "/one.png",
+  "/5.png",
+  "/feedback2.png",
+  "/feedback3.png",
+  "/feedback4.png",
+  "/feedback5.png",
 ]
 
 function App() {
@@ -62,7 +62,7 @@ function App() {
               <div className="relative h-64 w-64 overflow-hidden rounded-full bg-gradient-to-br from-primary/20 to-primary/5 md:h-80 md:w-80">
                 <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/10 to-primary/5">
                   <span className="text-6xl font-bold text-primary/20">
-                    <img src="/portfolio/self_pic.jpeg" alt="Gabriela Lima" />
+                    <img src="/self_pic.jpeg" alt="Gabriela Lima" />
                   </span>
                 </div>
               </div>

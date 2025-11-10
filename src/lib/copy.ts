@@ -12,7 +12,7 @@ export const copy = {
   },
   work: [
     {
-      company: "/portfolio/Writeopia.png",
+      company: "/Writeopia.png",
       title: "AI-assisted writing platform",
       tags: ["AI", "Systems", "Product"],
       summary:
@@ -35,7 +35,7 @@ export const copy = {
       }
     },
     {
-      company: "/portfolio/Axur.png",
+      company: "/Axur.png",
       title: "Design org turnaround",
       tags: ["Leadership", "Design Ops", "Systems"],
       summary:
@@ -58,7 +58,7 @@ export const copy = {
       }
     },
     {
-      company: "/portfolio/PicPay.png",
+      company: "/PicPay.png",
       title: "PicPay Card redesign for hypergrowth",
       tags: ["Fintech", "Growth", "Design System"],
       summary:
@@ -81,7 +81,7 @@ export const copy = {
       }
     },
     {
-      company: "/portfolio/Sanar.png",
+      company: "/Sanar.png",
       title: "Design leadership in healthtech",
       tags: ["Healthtech", "Education", "Discovery"],
       summary:
