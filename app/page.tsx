@@ -76,7 +76,7 @@ export default function Home() {
         <Section id="work" className="bg-muted/30">
           <div className="mb-12 text-center">
             <h2 className="font-playfair text-3xl font-bold md:text-4xl">
-              Selected Work
+               Work
             </h2>
             <p className="mt-4 text-muted-foreground">
               Strategic design leadership with measurable impact

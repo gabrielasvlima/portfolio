@@ -127,7 +127,7 @@ export const copy = {
     bio:
       "Brazilian designer based in the Netherlands. 10+ years across fintech, AI, and healthtech; 4+ years leading teams. I care about clarity, measurable outcomes, and enabling teams to do their best work.",
     press: [
-      "ADPList — Top 50 mentor (2025), Top 10 (2024)",
+      "ADPList — Top 50 mentor (2025), Top 1 (2024)",
       "Vogue London — features (6 editions)",
       "Elle Brasil — feature",
       "Presence at Paris & São Paulo Fashion Week",
