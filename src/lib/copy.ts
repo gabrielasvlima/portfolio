@@ -37,7 +37,7 @@ export const copy = {
     {
       company: "/Axur.png",
       title: "Design org turnaround",
-      tags: ["Leadership", "Design Ops", "Systems" "AI"],
+      tags: ["Leadership", "Design Ops", "Systems", "AI"],
       summary:
         "Rebuilt the org from 1 senior IC to 5 designers without adding headcount; launched a shadcn-based design system and new rituals with Engineering.",
       outcomes: [
