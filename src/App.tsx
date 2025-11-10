@@ -11,7 +11,7 @@ import { ArrowRight } from 'lucide-react'
 import { ThemeProvider } from './components/theme-provider'
 
 const cardImages = [
-  "/portfolio/6.png",
+  "./6.png",
   "/portfolio/7.png",
   "/portfolio/one.png",
   "/portfolio/5.png",
