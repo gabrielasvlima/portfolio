@@ -77,7 +77,7 @@ export const copy = {
         approach:
           "I led the end-to-end redesign of the PicPay Card, covering onboarding, identity verification, transaction UX, and rewards. I unified flows and interaction patterns across squads, introduced a regular critique cadence, defined KPIs, and ran iterative tests to continuously improve the experience. Throughout the process, I aligned Product, Marketing, and Engineering teams to ensure consistency and shared ownership.",
         impact:
-          "As a result, card adoption scaled dramatically from approximately 1 million to 46 million users. The unified Design System increased coherence and delivery velocity, while clearer ownership and documentation reduced rework and enabled sustainable growth."
+          "As a result, card adoption scaled dramatically from approximately 1 million to 34 million users. The unified Design System increased coherence and delivery velocity, while clearer ownership and documentation reduced rework and enabled sustainable growth."
       }
     },
     {
