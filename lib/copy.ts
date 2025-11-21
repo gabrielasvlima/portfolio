@@ -64,7 +64,7 @@ export const copy = {
       summary:
         "Redesigned PicPay Card end-to-end (onboarding, identity, transactions, rewards) and unified design language across squads.",
       outcomes: [
-        "Card user base grew from 1M → 46M",
+        "Card user base grew from 1M → 34M",
         "Higher journey consistency with shared DS",
         "Reduced design–dev rework through better docs/rituals"
       ],
@@ -77,7 +77,7 @@ export const copy = {
         approach:
           "Led end-to-end redesign of PicPay Card (onboarding, identity, transaction UX, rewards). Unified flows and interaction patterns; introduced critique cadence, KPIs, and iterative tests; aligned Product, Marketing, and Engineering.",
         impact:
-          "Card adoption scaled from ~1M to ~46M users. Unified DS increased coherence and velocity; clearer ownership and documentation reduced rework."
+          "Card adoption scaled from ~1M to ~34M users. Unified DS increased coherence and velocity; clearer ownership and documentation reduced rework."
       }
     },
     {

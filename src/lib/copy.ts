@@ -64,7 +64,7 @@ export const copy = {
       summary:
         "Redesigned PicPay Card end-to-end (onboarding, identity, transactions, rewards) and unified design language across squads.",
       outcomes: [
-        "Card user base grew from 1M → 46M",
+        "Card user base grew from 1M → 34M",
         "Higher journey consistency with shared DS",
         "Reduced design–dev rework through better docs/rituals"
       ],
