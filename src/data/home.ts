@@ -88,7 +88,7 @@ export const timeline: TimelineItem[] = [
   },
   {
     year: '2024–25',
-    role: 'Design Leadership, Axur Cybersecurity',
+    role: 'Global Manager of Product Experience & Design',
     desc: 'Rebuilt the design organization for the AI era: career frameworks, coaching, and an engineering-first design system. Leadership score moved from 16 to 75.',
   },
   {
