@@ -1,91 +1,71 @@
-# Gabriela Lima Portfolio
+# Gabriela Lima — Portfolio
 
-Portfolio landing page built with **Vite + React + TypeScript**.
+Portfolio site built with **Vite + React + TypeScript**, preserving the original HTML design system (Fraunces, Inter, IBM Plex Mono, readout chips).
 
-## Tech Stack
+## Tech stack
 
-- **Framework**: Vite + React 18
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui (Button, Card, Badge, Sheet)
-- **Icons**: lucide-react
-- **Animation**: framer-motion
-- **Theming**: Custom theme provider (light/dark mode)
-- **Fonts**: Inter (body) + Playfair Display (headings)
+- Vite + React 18 + TypeScript
+- React Router (home + 3 case studies)
+- react-helmet-async (SEO / Open Graph)
+- CSS design tokens from the original static site (`src/styles.css`)
 
-## Getting Started
-
-### Installation
+## Getting started
 
 ```bash
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open [http://localhost:5173](http://localhost:5173)
 
-### Build
+## Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Project Structure
+## Project structure
 
 ```
-gabriela-lima-portfolio/
+├── public/images/     # Local image assets
 ├── src/
-│   ├── components/
-│   │   ├── ui/              # shadcn/ui components
-│   │   ├── header.tsx       # Sticky header with navigation
-│   │   ├── footer.tsx       # Footer component
-│   │   ├── section.tsx      # Animated section wrapper
-│   │   ├── case-card.tsx    # Work case study card
-│   │   ├── metric.tsx        # Leadership metric display
-│   │   ├── press-strip.tsx  # Press & recognition strip
-│   │   ├── contact-cta.tsx  # Contact call-to-action
-│   │   └── theme-provider.tsx # Theme context provider
-│   ├── lib/
-│   │   ├── copy.ts          # All content/copy centralized
-│   │   └── utils.ts         # Utility functions
-│   ├── App.tsx              # Main app component
-│   ├── main.tsx             # Entry point
-│   └── index.css            # Global styles & theme variables
-├── public/                  # Static assets
-├── index.html               # HTML template
-└── vite.config.ts           # Vite configuration
+│   ├── components/    # Nav, footer, reveal, contact form, SEO
+│   ├── data/          # Home content + case study copy
+│   ├── pages/         # HomePage, CaseStudyPage
+│   ├── styles.css     # Shared design system
+│   └── App.tsx        # Routes
+├── vercel.json        # SPA rewrites + cache headers
+└── index.html
 ```
 
-## Features
+## Routes
 
-- ✅ Fully responsive (mobile-first)
-- ✅ Dark mode support
-- ✅ Smooth scroll navigation
-- ✅ Accessibility (WCAG AA compliant)
-- ✅ SEO optimized
-- ✅ Performance optimized
-- ✅ TypeScript strict mode
-- ✅ All content centralized in `src/lib/copy.ts`
+| Path | Page |
+|------|------|
+| `/` | Home |
+| `/work/picpay` | PicPay case study |
+| `/work/axur` | Axur case study |
+| `/work/sanar` | Sanar case study |
 
-## Customization
+Legacy `.html` URLs redirect automatically.
 
-All content is centralized in `src/lib/copy.ts`. Edit this file to update:
-- Hero section
-- Work case studies
-- Leadership metrics
-- About section
-- Contact information
+## Contact form
 
-## Dark Mode
+1. Create a form at [formspree.io](https://formspree.io)
+2. Set `FORM_ENDPOINT` in `src/components/ContactForm.tsx`
 
-The theme provider uses localStorage to persist theme preference. Toggle between light and dark mode using the button in the header.
+## Deploy on Vercel
 
-## License
+1. Push to [github.com/gabrielasvlima/portfolio](https://github.com/gabrielasvlima/portfolio)
+2. Import the repo at [vercel.com/new](https://vercel.com/new)
+3. Framework preset: **Vite**
+4. Build command: `npm run build`
+5. Output directory: `dist`
+6. Add domain `gabrielalima.me` under **Settings → Domains**
 
-Private project for Gabriela Lima.
+## Content
+
+Edit copy in:
+- `src/data/home.ts` — hero, work cards, timeline, testimonials
+- `src/data/cases.ts` — case study pages
